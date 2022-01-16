@@ -4,7 +4,7 @@ import SearchLyrics from '@/components/SearchLyrics.vue'
 
 
 <template>
-  <div>
-    <!-- <SearchLyrics /> -->
+  <div class="max-w-lg mx-auto">
+    <SearchLyrics />
   </div>
 </template>

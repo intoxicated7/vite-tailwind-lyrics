@@ -1,6 +1,7 @@
 import { createStore } from 'vuex'
 import lyrics from './modules/lyrics'
 import tracks from './modules/tracks'
+import artist from './modules/artist'
 
 const store = createStore({ 
   state: {},
@@ -8,7 +9,8 @@ const store = createStore({
   mutations: {},
   modules: {
     lyrics,
-    tracks
+    tracks,
+    artist
   }
 }) 
 
